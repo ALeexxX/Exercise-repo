@@ -1,0 +1,27 @@
+            using System;
+            using System.Collections.Generic;
+            using System.Linq;
+            using System.Text;
+            using System.Threading.Tasks;
+
+namespace Add_Two_Numbers
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {           
+            var firstNumbers = int.Parse(Console.ReadLine());
+            var secondNumbers= int.Parse(Console.ReadLine());
+            var thirdNumbers = int.Parse(Console.ReadLine());
+            var fourthNumbers = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{firstNumbers:D4} {secondNumbers:D4} {thirdNumbers:D4} {fourthNumbers:D4}");
+
+
+
+
+        }
+
+    }
+}
+
